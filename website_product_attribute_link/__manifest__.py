@@ -19,7 +19,7 @@
 ##############################################################################
 {
     'name': 'Product Attribute Link on Website Product view',
-    'version': '13.0.1.1.0',
+    'version': '13.0.1.0.0',
     'category': 'Product',
     'sequence': 14,
     'summary': '',
@@ -37,5 +37,6 @@
         'security/product_group_security.xml',
     ],
     'installable': True,
+    'auto_install': False,
     'application': False,
 }
